@@ -1,17 +1,28 @@
 body {
     background-color: black;
     font-family: 'Caudex', serif;
+    margin: 0;
+    padding: 0;
+    width: 100%
 }
 
-.parallax {
-    background-image: url("grivo_background.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.album-cover img {
+    vertical-align: middle;
+    max-width: 350px;
 }
+  
+  
+  
+  
 
+
+
+   
+
+
+
+
+ 
 
 
 
