@@ -3,19 +3,71 @@ body {
     font-family: 'Caudex', serif;
     margin: 0;
     padding: 0;
-    width: 100%
+    width: 100%;
 }
 
-.album-cover img {
-    vertical-align: middle;
+img {
+    width: 100%;  
+} 
+
+ .links button:before {
+    display: flex;
+    
+}
+  
+@media screen and (max-width: 750px) {
+.album-cover {
+    width: 100%;
     max-width: 350px;
+    padding-right: 0px;
+    margin: 0px auto;
+    padding-bottom: 5px;
 }
-  
-  
-  
-  
+}
 
+@media screen and (max-width: 750px) {
+.links button {
+    border: 0px solid #000;
+    padding: 10px 0px;
+    margin-left: 0%;
+    display: inline-block;
+    width: 100%;
+}
+}
 
+/* .links button {
+    display: grid;
+    align-self: center;
+} */
+  
+#album {
+    padding: 25px 0 25px 0 ;
+}
+
+.links button {
+    display: grid;
+    align-self: center;
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin: 5px 0 5px 0;
+    }
+    
+    .links button:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    }
+
+    
 
    
 
